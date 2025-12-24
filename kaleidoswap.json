@@ -6,9 +6,8 @@
     "version": "0.1.0",
     "x-build-info": {
       "version": "v0.4.0-rc2",
-      "commit": "b3b06a67c2168262cf3e6ed9367ebc8b0719cfb1",
-      "buildDate": "2025-12-24T14:01:09.692911+00:00",
-      "generator": "kaleidoswap-maker/scripts/generate_openapi.py"
+      "commit": "73a6ae6e5e976ccb157607e2af35e37965ac5aa6",
+      "buildDate": "2025-12-24T14:16:52.822592+00:00"
     },
     "license": {
       "name": "MIT",
@@ -3445,7 +3444,7 @@
             "title": "Created At",
             "description": "Creation timestamp (seconds since epoch)",
             "examples": [
-              1766584869
+              1766585812
             ]
           },
           "expires_at": {
