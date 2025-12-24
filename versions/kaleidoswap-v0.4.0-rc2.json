@@ -6,8 +6,8 @@
     "version": "0.1.0",
     "x-build-info": {
       "version": "v0.4.0-rc2",
-      "commit": "73a6ae6e5e976ccb157607e2af35e37965ac5aa6",
-      "buildDate": "2025-12-24T14:16:52.822592+00:00"
+      "commit": "56f0f59f611fe9568d180deb914b7793f1d8c591",
+      "buildDate": "2025-12-24T15:42:00.033483+00:00"
     },
     "license": {
       "name": "MIT",
@@ -3444,7 +3444,7 @@
             "title": "Created At",
             "description": "Creation timestamp (seconds since epoch)",
             "examples": [
-              1766585812
+              1766590919
             ]
           },
           "expires_at": {
