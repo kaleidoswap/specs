@@ -6,8 +6,8 @@
     "version": "0.1.0",
     "x-build-info": {
       "version": "v0.4.0-rc2",
-      "commit": "7a5c9bb9bc8d976980db110c70ba2fe99b110bad",
-      "buildDate": "2025-12-24T15:49:13.772687+00:00"
+      "commit": "e50a14698b03d2bb9bf8d72111f846140cc3e159",
+      "buildDate": "2025-12-24T15:54:27.903740+00:00"
     },
     "license": {
       "name": "MIT",
@@ -1242,13 +1242,13 @@
           "issued_supply": {
             "anyOf": [
               {
-                "type": "integer"
+                "type": "integer",
+                "format": "int64"
               },
               {
                 "type": "null"
               }
             ],
-            "format": "int64",
             "title": "Issued Supply",
             "description": "Total issued supply"
           },
@@ -3444,7 +3444,7 @@
             "title": "Created At",
             "description": "Creation timestamp (seconds since epoch)",
             "examples": [
-              1766591353
+              1766591667
             ]
           },
           "expires_at": {
@@ -3858,13 +3858,13 @@
           "issued_supply": {
             "anyOf": [
               {
-                "type": "integer"
+                "type": "integer",
+                "format": "int64"
               },
               {
                 "type": "null"
               }
             ],
-            "format": "int64",
             "title": "Issued Supply",
             "description": "Total issued supply"
           },
