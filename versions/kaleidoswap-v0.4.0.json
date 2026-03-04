@@ -6,8 +6,8 @@
     "version": "0.1.0",
     "x-build-info": {
       "version": "v0.4.0",
-      "commit": "02195d7a558a2b87f539f483a7b34ae4754d69a5",
-      "buildDate": "2026-02-10T15:22:28.397751+00:00"
+      "commit": "4db2c30e2beb47459929f4e6308216068b965ba5",
+      "buildDate": "2026-03-04T22:38:58.076208+00:00"
     },
     "license": {
       "name": "MIT",
@@ -243,7 +243,7 @@
           "lsps1"
         ],
         "summary": "Retry Delivery",
-        "description": "Endpoint for clients to queue their order for immediate retry of asset delivery.\n\nThis allows users to bypass the exponential backoff delay by queueing their order\nfor priority processing. The order will be processed by the background loop within\n60 seconds. Useful when a user comes back online after being offline during\nscheduled retry windows.\n\nArgs:\n    request: Contains the order_id\n\nReturns:\n    RetryDeliveryResponse with status and message",
+        "description": "Endpoint for clients to queue their order for immediate retry of asset delivery.\nArgs:\n    request: Contains the order_id\n\nReturns:\n    RetryDeliveryResponse with status and message",
         "operationId": "retry_delivery_api_v1_lsps1_retry_delivery_post",
         "requestBody": {
           "content": {
@@ -3444,7 +3444,7 @@
             "title": "Created At",
             "description": "Creation timestamp (seconds since epoch)",
             "examples": [
-              1770736947
+              1772663937
             ]
           },
           "expires_at": {
